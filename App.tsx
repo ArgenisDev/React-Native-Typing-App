@@ -17,7 +17,7 @@ import prompts from './prompts';
 
 const generatePrompt = (level: number) => prompts[level % prompts.length];
 
-export default function TypingTest() {
+export default function TypingApp() {
   const [level, setLevel] = useState(0);
   const [userInput, setUserInput] = useState('');
   const [errorCount, setErrorCount] = useState(0);
